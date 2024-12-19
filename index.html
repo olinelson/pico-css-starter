@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>My Website</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+        />
+        <style>
+            .header {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+            }
+            .header > img {
+                width: 80px;
+                height: 80px;
+                border-radius: 1000px;
+                object-fit: cover;
+            }
+
+            .header > hgroup {
+                margin: 0px;
+            }
+
+            a.contrast {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <section class="header">
+                <img src="./cat.jpg" />
+                <hgroup>
+                    <h1>Olaf Olafson</h1>
+                    <p>Cat / Twitch Streamer</p>
+                </hgroup>
+            </section>
+
+            <a href="https://some-website.com" target="_blank" class="contrast">
+                <article>
+                    <span>Link One</span>
+                </article>
+            </a>
+
+            <a href="https://some-website.com" target="_blank" class="contrast">
+                <article>
+                    <span>Link Two</span>
+                </article>
+            </a>
+
+            <a href="https://some-website.com" target="_blank" class="contrast">
+                <article>
+                    <span>Link Three</span>
+                </article>
+            </a>
+        </main>
+    </body>
+</html>
